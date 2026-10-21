@@ -1,17 +1,20 @@
-# 📜 Historique Des Versions
+📜 Historique Des Versions
+🚧 Non Publié — 21/10/2026
+♾️ Mode Toujours Actif : Le Hook Injecte Les Règles Sans Les Sections Pourquoi, Exemple Et Crédits (Sortie Sous 10 000 Caractères), Avec Une Consigne Courte En Secours.
 
-## Non Publié — 21/10/2026
+📄 Prompt Universel : Ligne De Crédit I-Have-Adhd (MIT) Ajoutée, Toujours Sous 1 500 Caractères.
 
-- ♾️ **Mode Toujours Actif** : le hook injecte les règles sans les sections Pourquoi, Exemple et Crédits (sortie sous 10 000 caractères), avec une consigne courte en secours.
-- 📄 **Prompt Universel** : ligne de crédit i-have-adhd (MIT) ajoutée, toujours sous 1 500 caractères.
-- 📘 **README** : méthode plugin et mode toujours actif marqués « Bientôt Disponible » (dépôt GitHub pas encore publié), liens du .zip rendus absolus, README.en.md ajouté au .zip.
+📘 README : Méthode Plugin Et Mode Toujours Actif Marqués « Bientôt Disponible » (Dépôt GitHub Pas Encore Publié), Liens Du .Zip Rendus Absolus, README.En.Md Ajouté Au .Zip.
 
-## 1.0.0 — 21/10/2026
+🚀 1.0.0 — 21/10/2026
+🎉 Première Version Publique.
 
-Première version publique.
+🧠 Skill Tdah-Mode : Fusion Du Style Tdah-Mode De LeGeek AndConsulting Et Des Règles De Forme De I-Have-Adhd (Ayoub Ghriss, Licence MIT), Traduites En Français.
 
-- 🧠 **Skill tdah-mode** : fusion du style tdah-mode de LeGeek AndConsulting et des règles de forme de i-have-adhd (Ayoub Ghriss, licence MIT), traduites en français.
-- 📄 **Prompt Universel** : version courte (moins de 1 500 caractères) pour les outils qui n'utilisent pas les skills Claude.
-- 🔌 **Plugin Claude Code** : fichiers plugin et marketplace.
-- ♾️ **Mode Toujours Actif** : hook SessionStart optionnel, activé par le fichier `~/.claude/.tdah-mode-always`.
-- 🧪 **Tests** : 12 cas et une grille de notation, à passer à la main.
+📄 Prompt Universel : Version Courte (Moins De 1 500 Caractères) Pour Les Outils Qui N'Utilisent Pas Les Skills Claude.
+
+🔌 Plugin Claude Code : Fichiers Plugin Et Marketplace.
+
+♾️ Mode Toujours Actif : Hook SessionStart Optionnel, Activé Par Le Fichier ~/.claude/.tdah-mode-always.
+
+🧪 Tests : 12 Cas Et Une Grille De Notation, À Passer À La Main.
