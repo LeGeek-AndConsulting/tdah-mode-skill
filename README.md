@@ -72,14 +72,9 @@ claude plugin install tdah-mode@tdah-mode
 
 Redémarrez votre assistant, puis retapez `/tdah-mode`.
 
-## Crédits
+## 🙏 Crédits
 
-Règles de forme adaptées et traduites de [i-have-adhd](https://github.com/ayghri/i-have-adhd) (Ayoub Ghriss, licence MIT), lui-même inspiré de *The Adult ADHD Tool Kit* (Ramsay & Rostain). Style, fusion et traduction : [LeGeek AndConsulting](https://legeekandconsulting.com/tdah).
-
-## Licence
-
-[MIT](LICENSE). Les deux mentions de copyright (LeGeek AndConsulting et Ayoub Ghriss) restent dans toute copie.
-
+📋 Règles De Forme ( 📌 Persistance, ⚡ Action D'Abord, 🛑 Exceptions, 🔍 Contrôle Avant Envoi) 🔄 Adaptées Et Traduites De 🧠 i-have-adhd, 🔏 Copyright (c) 2026 LeGeek, 📄 Licence MIT : 🔗 github.com. 📜 La Notice Complète Est Disponible Dans Le Fichier LICENSE Juste À Côté. 🎨 Style Tdah-Mode Créé Par LeGeek AndConsulting. ✌️🤓✌️https://legeekandconsulting.com/tdah
 ---
 
-<p align="center">⭐ Si ça vous évite un défilement devant un « Bien sûr ! », un petit mot sur <a href="https://legeekandconsulting.com/tdah">le site</a>.</p>
+<p align="center">⭐ Si Ca Vous Évite Un Défilement Devant Un « Bien Sûr ! », Un Petit Mot Sur <a href="https://legeekandconsulting.com/tdah">Le Site</a>.</p>
