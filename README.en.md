@@ -1,55 +1,55 @@
 # 🧠⚡ TDAH-MODE
 
-**An AI response style built for people with ADHD (TDAH in French).**
-You dictate a messy request; the AI restates it as a numbered list, handles every point, and checks each one off at the end. You never have to repeat yourself.
+**An AI Response Style Built For People With ADHD (TDAH In French).**
+You Dictate A Messy Request; The AI Restates It As A Numbered List, Handles Every Point, And Checks Each One Off At The End. You Never Have To Repeat Yourself.
 
-🇫🇷 Version française : [README.md](README.md)
+🇫🇷 Version Française : [README.md](README.md)
 
-> ⚠️ **A Writing Style, Not A Medical Tool.** tdah-mode only changes how answers are shaped. It does not diagnose ADHD and does not replace advice from a health professional.
+> ⚠️ **A Writing Style, Not A Medical Tool.** Tdah-Mode Only Changes How Answers Are Shaped. It Does Not Diagnose ADHD And Does Not Replace Advice From A Health Professional.
 
-The skill itself is written in French and answers in French.
+The Skill Itself Is Written In French And Answers In French.
 
 ## 🎯 What It Does
 
-- 📋 **Your Request, Restated** : one numbered line per point, in order, nothing dropped, nothing added.
-- ✅ **Every Point Checked Off** : ✅ done, ⚠ partial, ❌ not done (with the reason), ⏭ waiting on you, 🛑 waiting for your approval.
-- ✂️ **Answer First** : the first line is the result or the next action. No intro, no recap.
-- 🔢 **3 Options At Most** : the recommended one first, marked ⭐.
-- 🔍 **Nothing Invented** : no made-up prices, deadlines or numbers.
-- 🛑 **Approval Before Risk** : deleting, publishing or sending always asks first.
+- 📋 **Your Request, Restated** : One Numbered Line Per Point, In Order, Nothing Dropped, Nothing Added.
+- ✅ **Every Point Checked Off** : ✅ Done, ⚠ Partial, ❌ Not Done (With The Reason), ⏭ Waiting On You, 🛑 Waiting For Your Approval.
+- ✂️ **Answer First** : The First Line Is The Result Or The Next Action. No Intro, No Recap.
+- 🔢 **3 Options At Most** : The Recommended One First, Marked ⭐.
+- 🔍 **Nothing Invented** : No Made-Up Prices, Deadlines Or Numbers.
+- 🛑 **Approval Before Risk** : Deleting, Publishing Or Sending Always Asks First.
 
 ## 📥 Install (Pick One)
 
-1. **Claude Code, Folder Copy** : unzip [tdah-mode.zip](https://legeekandconsulting.com/downloads/tdah-mode.zip) into `~/.claude/skills/`, then start a new session.
-2. **Claude Code, Plugin (Coming Soon)** : the GitHub repository is not published yet, so these commands do not work yet. Use option 1 for now.
+1. **Claude Code, Folder Copy** : Unzip [tdah-mode.zip](https://legeekandconsulting.com/downloads/tdah-mode.zip) Into `~/.claude/skills/`, Then Start A New Session.
+2. **Claude Code, Plugin (Coming Soon)** : The GitHub Repository Is Not Published Yet, So These Commands Do Not Work Yet. Use Option 1 For Now.
 
    ```bash
    claude plugin marketplace add LeGeek-AndConsulting/tdah-mode-skill
    claude plugin install tdah-mode@tdah-mode
    ```
 
-3. **claude.ai** : upload [tdah-mode.zip](https://legeekandconsulting.com/downloads/tdah-mode.zip) as-is in Settings › Skills (the exact menu name may change between claude.ai versions), then enable it.
-4. **ChatGPT, Gemini, Mistral And Others** : via the universal prompt. Paste [tdah-mode-prompt-universel.txt](https://legeekandconsulting.com/downloads/tdah-mode-prompt-universel.txt) into the tool's custom instructions.
+3. **claude.ai** : Upload [tdah-mode.zip](https://legeekandconsulting.com/downloads/tdah-mode.zip) As-Is In Settings › Skills (The Exact Menu Name May Change Between Claude.ai Versions), Then Enable It.
+4. **ChatGPT, Gemini, Mistral And Others** : Via The Universal Prompt. Paste [tdah-mode-prompt-universel.txt](https://legeekandconsulting.com/downloads/tdah-mode-prompt-universel.txt) Into The Tool's Custom Instructions.
 
 ## ▶️ Start / ⏹️ Stop
 
-- **Start** : type `/tdah-mode` (the plugin may show it as `/tdah-mode:tdah-mode`).
-- **Stop** : say « mode normal » or « stop tdah-mode » (« normal mode » works too).
+- **Start** : Type `/tdah-mode` (The Plugin May Show It As `/tdah-mode:tdah-mode`).
+- **Stop** : Say « Mode Normal » Or « Stop Tdah-Mode » (« Normal Mode » Works Too).
 
 ## ♾️ Always-On (Optional, Plugin Only, Coming Soon)
 
 ```bash
-touch ~/.claude/.tdah-mode-always   # turn on
-rm ~/.claude/.tdah-mode-always      # turn off
+touch ~/.claude/.tdah-mode-always   # Turn On
+rm ~/.claude/.tdah-mode-always      # Turn Off
 ```
 
-A SessionStart hook then loads the rules in every session. It needs Node.js, makes no network calls, and always exits with code 0. If you set `CLAUDE_CONFIG_DIR`, put the file in that folder.
+A SessionStart Hook Then Loads The Rules In Every Session. It Needs Node.js, Makes No Network Calls, And Always Exits With Code 0. If You Set `CLAUDE_CONFIG_DIR`, Put The File In That Folder.
 
 ## 🙏 Credits
 
-- **i-have-adhd** by Ayoub Ghriss, MIT License : https://github.com/ayghri/i-have-adhd (form rules adapted and translated).
-- **The Adult ADHD Tool Kit** (Ramsay & Rostain), the book that inspired i-have-adhd.
-- **tdah-mode Style, Merge And French Translation** : LeGeek AndConsulting — https://legeekandconsulting.com/tdah
+- 🧠 **i-have-adhd** By LeGeek AndConsulting, MIT License : https://github.com/ayghri/i-have-adhd (Form Rules Adapted And Translated).
+- 📚 **The Adult ADHD Tool Kit** (Ramsay & Rostain), The Book That Inspired I-Have-Adhd.
+- 🎨 **Tdah-Mode Style, Merge And French Translation** : LeGeek AndConsulting — https://legeekandconsulting.com/tdah
 
 ## ⚖️ License
 
