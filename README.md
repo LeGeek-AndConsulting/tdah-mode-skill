@@ -1,5 +1,6 @@
+```markdown
 <p align="center">
-  <strong>🧠⚡ tdah-mode</strong>
+  <strong>🧠⚡ Tdah-Mode</strong>
 </p>
 <p align="center">
   <strong>Des Réponses D'IA Pensées Pour Un Cerveau TDAH. Aucun Diagnostic Requis.</strong>
@@ -15,9 +16,9 @@
 
 ## Installation
 
-Guide détaillé, 4 méthodes (Claude Code, claude.ai, ChatGPT/Gemini/Mistral) : 🔗 [INSTALL.md](INSTALL.md).
+Guide Détaillé, 4 Méthodes (Claude Code, claude.ai, ChatGPT/Gemini/Mistral) : 🔗 [INSTALL.md](INSTALL.md).
 
-Activation : tapez `/tdah-mode`. Arrêt : écrivez « mode normal ».
+Activation : Tapez `/tdah-mode`. Arrêt : Écrivez « Mode Normal ».
 
 ## Ce Qu'il Fait
 
@@ -31,7 +32,7 @@ Un Skill Pour Votre Assistant IA Qui L'Empêche De Noyer La Réponse. L'Action D
 
 ### ❌ Avant
 
-> Bien sûr ! Les coupures de Wi-Fi peuvent avoir de nombreuses causes. Tout d'abord, il faut savoir que les ondes sont sensibles aux interférences... *(trois paragraphes plus loin)*... Concernant vos photos, il existe plusieurs méthodes de sauvegarde, chacune avec ses avantages. N'hésitez pas si vous avez d'autres questions !
+> Bien Sûr ! Les Coupures De Wi-Fi Peuvent Avoir De Nombreuses Causes. Tout D'abord, Il Faut Savoir Que Les Ondes Sont Sensibles Aux Interférences... *(Trois Paragraphes Plus Loin)*... Concernant Vos Photos, Il Existe Plusieurs Méthodes De Sauvegarde, Chacune Avec Ses Avantages. N'hésitez Pas Si Vous Avez D'autres Questions !
 
 </td>
 <td width="50%">
@@ -40,7 +41,7 @@ Un Skill Pour Votre Assistant IA Qui L'Empêche De Noyer La Réponse. L'Action D
 
 > 📋 Votre Demande
 > 1. ⚠ **Wi-Fi Qui Coupe** : Cause Probable, Non Vérifiée : Même Canal Que Les Voisins. Test : Changez-Le Dans L'Interface De La Box.
-> 2. ✅ **Photos Sauvegardées** : Réglages › iCloud › Photos, Attendez La Fin De L'Envoi.
+> 2. ✅ **Photos Sauvegardées** : Réglages › iCloud › Photos, Attendez La Fin De L'envoi.
 > 👉 À Vous : Changez Le Canal Ce Soir Et Dites-Moi Si Ça Coupe Encore.
 
 </td>
@@ -49,19 +50,19 @@ Un Skill Pour Votre Assistant IA Qui L'Empêche De Noyer La Réponse. L'Action D
 
 ## Les Règles
 
-7 règles. Texte complet, avec exemples, dans [SKILL.md](skills/tdah-mode/SKILL.md).
+7 Règles. Texte Complet, Avec Exemples, Dans [SKILL.md](skills/tdah-mode/SKILL.md).
 
-1. Reformuler la demande, puis tout traiter.
-2. Cocher chaque point à la fin (✅ ⚠ ❌ ⏭ 🛑).
-3. La réponse d'abord, courte. 3 options maximum.
-4. Montrer le progrès, pas de délai vague.
-5. Pas d'initiative : faire ce qui est demandé, rien de plus.
-6. Honnête et vérifié : rien d'inventé, jamais.
-7. Accord avant tout risque (suppression, publication, envoi).
+1. Reformuler La Demande, Puis Tout Traiter.
+2. Cocher Chaque Point À La Fin (✅ ⚠ ❌ ⏭ 🛑).
+3. La Réponse D'abord, Courte. 3 Options Maximum.
+4. Montrer Le Progrès, Pas De Délai Vague.
+5. Pas D'initiative : Faire Ce Qui Est Demandé, Rien De Plus.
+6. Honnête Et Vérifié : Rien D'inventé, Jamais.
+7. Accord Avant Tout Risque (Suppression, Publication, Envoi).
 
 ## Personnaliser
 
-Forkez, éditez `skills/tdah-mode/SKILL.md`, puis remplacez la version d'origine :
+Forkez, Éditez `skills/tdah-mode/SKILL.md`, Puis Remplacez La Version D'origine :
 
 ```bash
 claude plugin uninstall tdah-mode
@@ -70,11 +71,12 @@ claude plugin marketplace add <votre-compte>/tdah-mode-skill
 claude plugin install tdah-mode@tdah-mode
 ```
 
-Redémarrez votre assistant, puis retapez `/tdah-mode`.
+Redémarrez Votre Assistant, Puis Retapez `/tdah-mode`.
 
 ## 🙏 Crédits
 
-📋 Règles De Forme ( 📌 Persistance, ⚡ Action D'Abord, 🛑 Exceptions, 🔍 Contrôle Avant Envoi ) 🔄 Adaptées Et Traduites 🔏 Copyright (C) 2026 LeGeek, 📄 Licence MIT : 🔗 Github.com. 📜 La Notice Complète Est Disponible Dans Le Fichier LICENSE Juste À Côté. 🎨 Style Tdah-Mode Créé Par LeGeek AndConsulting. ✌️🤓✌️https://legeekandconsulting.com/tdah
+📋 Règles De Forme ( 📌 Persistance, ⚡ Action D'abord, 🛑 Exceptions, 🔍 Contrôle Avant Envoi ) 🔄 Adaptées Et Traduites 🔏 Copyright (C) 2026 LeGeek, 📄 Licence MIT : 🔗 Github.Com. 📜 La Notice Complète Est Disponible Dans Le Fichier LICENSE Juste À Côté. 🎨 Style Tdah-Mode Créé Par LeGeek AndConsulting. ✌️🤓✌️https://legeekandconsulting.com/tdah
 ---
 
 <p align="center">⭐ Si Ca Vous Évite Un Défilement Devant Un « Bien Sûr ! », Un Petit Mot Sur <a href="https://legeekandconsulting.com/tdah">Le Site</a>.</p>
+```
