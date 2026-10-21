@@ -1,0 +1,12 @@
+{
+  "name": "tdah-mode",
+  "version": "1.0.0",
+  "description": "Style de réponse pensé pour les personnes avec un TDAH : demande reformulée puis cochée, réponse d'abord, phrases courtes, 3 options maximum, rien d'inventé.",
+  "author": {
+    "name": "LeGeek AndConsulting",
+    "url": "https://legeekandconsulting.com/tdah"
+  },
+  "homepage": "https://legeekandconsulting.com/tdah",
+  "license": "MIT",
+  "keywords": ["tdah", "adhd", "style", "accessibilite", "francais"]
+}

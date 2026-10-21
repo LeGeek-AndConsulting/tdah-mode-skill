@@ -1,0 +1,16 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "tdah-mode",
+  "description": "Le style de réponse tdah-mode pour Claude Code, pensé pour les personnes avec un TDAH.",
+  "owner": {
+    "name": "LeGeek AndConsulting"
+  },
+  "plugins": [
+    {
+      "name": "tdah-mode",
+      "description": "Réponses courtes et actionnables pour un lecteur TDAH : demande reformulée puis cochée, réponse d'abord, rien d'inventé.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
