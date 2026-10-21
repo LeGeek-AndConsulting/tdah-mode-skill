@@ -69,10 +69,12 @@ Choisissez **une seule** méthode selon votre outil.
    unzip tdah-mode.zip -d ~/.claude/skills/
    ```
 
-   Vous pouvez aussi copier le dossier `skills/tdah-mode` de ce dépôt dans `~/.claude/skills/`.
+   Quand le dépôt GitHub sera publié, vous pourrez aussi y copier le dossier `skills/tdah-mode` dans `~/.claude/skills/`.
 3. 🔄 Ouvrez une nouvelle session Claude Code.
 
-### 2️⃣ Claude Code — Plugin Via La Marketplace
+### 2️⃣ Claude Code — Plugin Via La Marketplace (Bientôt Disponible)
+
+> ⏳ Le dépôt GitHub `LeGeek-AndConsulting/tdah-mode-skill` n'est pas encore publié : ces commandes ne marchent pas encore. En attendant, utilisez la méthode 1️⃣.
 
 ```bash
 claude plugin marketplace add LeGeek-AndConsulting/tdah-mode-skill
@@ -84,7 +86,7 @@ Puis ouvrez une nouvelle session. Cette méthode permet aussi le **mode toujours
 ### 3️⃣ claude.ai — Import Du .zip
 
 1. 📦 Téléchargez [tdah-mode.zip](https://legeekandconsulting.com/downloads/tdah-mode.zip) (ne le décompressez pas).
-2. ⚙️ Sur claude.ai, ouvrez **Réglages › Skills** et importez le fichier `.zip`.
+2. ⚙️ Sur claude.ai, ouvrez **Réglages › Skills** (le nom exact du menu peut changer selon la version de claude.ai) et importez le fichier `.zip`.
 3. ✅ Activez le skill **tdah-mode** dans la liste.
 
 Si la partie Skills n'apparaît pas, activez d'abord l'exécution de code dans les mêmes réglages.
@@ -93,7 +95,7 @@ Si la partie Skills n'apparaît pas, activez d'abord l'exécution de code dans l
 
 Ces outils n'utilisent pas le format des skills Claude. Ils passent par le prompt universel, une version courte des règles.
 
-1. 📄 Ouvrez [PROMPT-UNIVERSEL.md](PROMPT-UNIVERSEL.md) ou téléchargez [tdah-mode-prompt-universel.txt](https://legeekandconsulting.com/downloads/tdah-mode-prompt-universel.txt).
+1. 📄 Téléchargez [tdah-mode-prompt-universel.txt](https://legeekandconsulting.com/downloads/tdah-mode-prompt-universel.txt) (le même texte que `PROMPT-UNIVERSEL.md` du dépôt).
 2. 📋 Copiez tout le texte.
 3. ⚙️ Collez-le dans les **instructions personnalisées** de votre outil (le nom exact du menu change d'un outil à l'autre).
 
@@ -117,9 +119,9 @@ Avec le prompt universel, rien à taper : le style est actif dès que les instru
 
 Écrivez **« mode normal »** ou **« stop tdah-mode »**. L'IA répond par une seule ligne, `🧠 tdah-mode Désactivé.`, puis reprend son style habituel.
 
-## ♾️ Mode Toujours Actif (Optionnel)
+## ♾️ Mode Toujours Actif (Optionnel, Bientôt Disponible)
 
-Pour Claude Code installé **en plugin** (méthode 2️⃣). Le style se charge tout seul à chaque session, sans taper `/tdah-mode`.
+Pour Claude Code installé **en plugin** (méthode 2️⃣, pas encore disponible). Le style se charge tout seul à chaque session, sans taper `/tdah-mode`.
 
 1. 🟢 Créez le fichier drapeau (macOS / Linux) :
 
@@ -140,6 +142,8 @@ Si vous utilisez la variable `CLAUDE_CONFIG_DIR`, le fichier se met dans ce doss
 ---
 
 ## 📁 Contenu Du Dépôt
+
+Le fichier `tdah-mode.zip` du site contient seulement `SKILL.md`, `LICENSE`, `README.md` et `README.en.md`. Le reste ci-dessous est dans le dépôt GitHub (publication à venir).
 
 - 🧠 **skills/tdah-mode/** : le skill (SKILL.md) et sa licence.
 - 📄 **PROMPT-UNIVERSEL.md** : la version courte pour les autres outils.

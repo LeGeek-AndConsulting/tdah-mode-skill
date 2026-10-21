@@ -2,8 +2,12 @@
 //
 // Ne fait rien tant que le fichier drapeau .tdah-mode-always n'existe pas
 // dans $CLAUDE_CONFIG_DIR ou dans ~/.claude. S'il existe, affiche les règles
-// du SKILL.md voisin (sans l'en-tête YAML) pour que Claude les applique dès
-// le début de la session.
+// du SKILL.md voisin (sans l'en-tête YAML ni les sections « Pourquoi Ces
+// Règles », « Exemple » et « Crédits ») pour que Claude les applique dès le début de la session.
+//
+// Claude Code ne transmet en entier qu'une sortie de hook de moins de
+// 10 000 caractères. Au-delà de LIMITE, le hook envoie seulement une consigne
+// courte qui demande de charger le skill.
 //
 // Aucun accès réseau, aucune écriture. Le script sort toujours avec le code 0 :
 // il ne doit jamais empêcher une session de s'ouvrir.
@@ -14,6 +18,7 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const DRAPEAU = ".tdah-mode-always";
+const LIMITE = 9500;
 
 process.exitCode = 0;
 process.on("uncaughtException", () => {
@@ -34,6 +39,18 @@ function cheminDuDrapeau() {
   return null;
 }
 
+// Retire une section « ## Titre » entière (jusqu'à la section suivante ou la fin).
+function sansSection(texte, titre) {
+  const lignes = texte.split("\n");
+  const out = [];
+  let coupe = false;
+  for (const l of lignes) {
+    if (l.startsWith("## ")) coupe = l.includes(titre);
+    if (!coupe) out.push(l);
+  }
+  return out.join("\n").trim();
+}
+
 function sansEnTete(texte) {
   const lignes = texte.replace(/^﻿/, "").split(/\r?\n/);
   if (lignes[0].trim() !== "---") return lignes.join("\n").trim();
@@ -50,12 +67,15 @@ try {
     const ici = dirname(fileURLToPath(import.meta.url));
     const skill = join(ici, "..", "skills", "tdah-mode", "SKILL.md");
     if (existsSync(skill)) {
-      const corps = sansEnTete(readFileSync(skill, "utf8"));
-      if (corps) {
-        process.stdout.write(
-          `TDAH-MODE ACTIF (toujours actif) — supprimez ${drapeau} pour couper\n\n${corps}\n`,
-        );
+      let corps = sansEnTete(readFileSync(skill, "utf8"));
+      corps = ["Pourquoi Ces Règles", "Exemple", "Crédits"].reduce(sansSection, corps);
+      const tete = `TDAH-MODE ACTIF (toujours actif) — supprimez ${drapeau} pour couper`;
+      const credit = "Règles adaptées de i-have-adhd (Ayoub Ghriss, licence MIT). Notice complète : LICENSE du plugin.";
+      let sortie = corps ? `${tete}\n\n${corps}\n\n${credit}\n` : "";
+      if (sortie.length > LIMITE) {
+        sortie = `${tete}\n\nChargez le skill tdah-mode (outil Skill) dès la première réponse et appliquez-le pendant toute la session, jusqu'à « mode normal » ou « stop tdah-mode ».\n`;
       }
+      if (sortie) process.stdout.write(sortie);
     }
   }
 } catch {

@@ -20,23 +20,23 @@ The skill itself is written in French and answers in French.
 
 ## 📥 Install (Pick One)
 
-1. **Claude Code, Folder Copy** : unzip [tdah-mode.zip](https://legeekandconsulting.com/downloads/tdah-mode.zip) into `~/.claude/skills/` (or copy `skills/tdah-mode` there), then start a new session.
-2. **Claude Code, Plugin** :
+1. **Claude Code, Folder Copy** : unzip [tdah-mode.zip](https://legeekandconsulting.com/downloads/tdah-mode.zip) into `~/.claude/skills/`, then start a new session.
+2. **Claude Code, Plugin (Coming Soon)** : the GitHub repository is not published yet, so these commands do not work yet. Use option 1 for now.
 
    ```bash
    claude plugin marketplace add LeGeek-AndConsulting/tdah-mode-skill
    claude plugin install tdah-mode@tdah-mode
    ```
 
-3. **claude.ai** : upload [tdah-mode.zip](https://legeekandconsulting.com/downloads/tdah-mode.zip) as-is in Settings › Skills, then enable it.
-4. **ChatGPT, Gemini, Mistral And Others** : via the universal prompt. Paste [PROMPT-UNIVERSEL.md](PROMPT-UNIVERSEL.md) into the tool's custom instructions.
+3. **claude.ai** : upload [tdah-mode.zip](https://legeekandconsulting.com/downloads/tdah-mode.zip) as-is in Settings › Skills (the exact menu name may change between claude.ai versions), then enable it.
+4. **ChatGPT, Gemini, Mistral And Others** : via the universal prompt. Paste [tdah-mode-prompt-universel.txt](https://legeekandconsulting.com/downloads/tdah-mode-prompt-universel.txt) into the tool's custom instructions.
 
 ## ▶️ Start / ⏹️ Stop
 
 - **Start** : type `/tdah-mode` (the plugin may show it as `/tdah-mode:tdah-mode`).
 - **Stop** : say « mode normal » or « stop tdah-mode » (« normal mode » works too).
 
-## ♾️ Always-On (Optional, Plugin Only)
+## ♾️ Always-On (Optional, Plugin Only, Coming Soon)
 
 ```bash
 touch ~/.claude/.tdah-mode-always   # turn on

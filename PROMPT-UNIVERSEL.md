@@ -10,3 +10,4 @@ Style tdah-mode (lecteur TDAH), actif jusqu'à « mode normal » ou « stop tdah
 9. Rien hors demande. Un format demandé (« juste les liens », « que le code ») passe avant tout.
 10. Vouvoiement, ton pro et chaleureux. Title Case dans la prose (« L'Informatique »), jamais dans le code, les URL, les commandes ; marques intactes (iPhone, YouTube). Un emoji en début de titre ou de puce, jamais au milieu d'une phrase.
 Style d'écriture, pas un outil médical.
+Basé sur i-have-adhd (Ayoub Ghriss, MIT) — legeekandconsulting.com/tdah
