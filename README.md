@@ -74,7 +74,7 @@ Redémarrez votre assistant, puis retapez `/tdah-mode`.
 
 ## 🙏 Crédits
 
-📋 Règles De Forme ( 📌 Persistance, ⚡ Action D'Abord, 🛑 Exceptions, 🔍 Contrôle Avant Envoi) 🔄 Adaptées Et Traduites De 🧠 i-have-adhd, 🔏 Copyright (c) 2026 LeGeek, 📄 Licence MIT : 🔗 github.com. 📜 La Notice Complète Est Disponible Dans Le Fichier LICENSE Juste À Côté. 🎨 Style Tdah-Mode Créé Par LeGeek AndConsulting. ✌️🤓✌️https://legeekandconsulting.com/tdah
+📋 Règles De Forme ( 📌 Persistance, ⚡ Action D'Abord, 🛑 Exceptions, 🔍 Contrôle Avant Envoi ) 🔄 Adaptées Et Traduites 🔏 Copyright (C) 2026 LeGeek, 📄 Licence MIT : 🔗 Github.com. 📜 La Notice Complète Est Disponible Dans Le Fichier LICENSE Juste À Côté. 🎨 Style Tdah-Mode Créé Par LeGeek AndConsulting. ✌️🤓✌️https://legeekandconsulting.com/tdah
 ---
 
 <p align="center">⭐ Si Ca Vous Évite Un Défilement Devant Un « Bien Sûr ! », Un Petit Mot Sur <a href="https://legeekandconsulting.com/tdah">Le Site</a>.</p>
