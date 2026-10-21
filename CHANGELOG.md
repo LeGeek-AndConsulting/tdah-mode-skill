@@ -10,9 +10,9 @@
 🎉 Première Version Publique.
 
 🧠 Skill Tdah-Mode 🧠 : Fusion Du Style Tdah-Mode De LeGeek AndConsulting Et Des Règles De Forme De Tdah-Adhd 
-( LeGeekAndConsulting ), Licence MIT),
+( LeGeekAndConsulting )
 
-Traduites En Français.
+Licence ( MIT ) Traduites En Français.
 
 📄 Prompt Universel : Version Courte (Moins De 1 500 Caractères) Pour Les Outils Qui N'Utilisent Pas Les Skills Claude.
 
