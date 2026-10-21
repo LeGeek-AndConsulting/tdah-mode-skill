@@ -15,9 +15,9 @@
 
 ## Installation
 
-Guide détaillé, 4 méthodes (Claude Code, claude.ai, ChatGPT/Gemini/Mistral) : 🔗 [INSTALL.md](INSTALL.md).
+Guide Détaillé, 4 Méthodes ( Claude Code, Claude.ai, ChatGPT/Gemini/Mistral) : 🔗 [ INSTALL.MD ](INSTALL.md).
 
-Activation : tapez `/tdah-mode`. Arrêt : écrivez « mode normal ».
+Activation : Tapez `/tdah-mode`. Arrêt : Écrivez « Mode Normal ».
 
 ## Ce Qu'il Fait
 
@@ -31,7 +31,7 @@ Un Skill Pour Votre Assistant IA Qui L'Empêche De Noyer La Réponse. L'Action D
 
 ### ❌ Avant
 
-> Bien sûr ! Les coupures de Wi-Fi peuvent avoir de nombreuses causes. Tout d'abord, il faut savoir que les ondes sont sensibles aux interférences... *(trois paragraphes plus loin)*... Concernant vos photos, il existe plusieurs méthodes de sauvegarde, chacune avec ses avantages. N'hésitez pas si vous avez d'autres questions !
+> Bien Sûr ! Les Coupures De Wi-Fi Peuvent Avoir De Nombreuses Causes. Tout D'abord, Il Faut Savoir Que Les Ondes Sont Sensibles Aux Interférences... *( Trois Paragraphes Plus Loin)*... Concernant Vos Photos, Il Existe Plusieurs Méthodes De Sauvegarde, Chacune Avec Ses Avantages. N'Hésitez Pas Si Vous Avez D'autres Questions !
 
 </td>
 <td width="50%">
@@ -49,19 +49,19 @@ Un Skill Pour Votre Assistant IA Qui L'Empêche De Noyer La Réponse. L'Action D
 
 ## Les Règles
 
-7 règles. Texte complet, avec exemples, dans [SKILL.md](skills/tdah-mode/SKILL.md).
+7 Règles. Texte Complet, Avec Exemples, Dans [ SKILL.MD ](skills/tdah-mode/SKILL.md).
 
-1. Reformuler la demande, puis tout traiter.
-2. Cocher chaque point à la fin (✅ ⚠ ❌ ⏭ 🛑).
-3. La réponse d'abord, courte. 3 options maximum.
-4. Montrer le progrès, pas de délai vague.
-5. Pas d'initiative : faire ce qui est demandé, rien de plus.
-6. Honnête et vérifié : rien d'inventé, jamais.
-7. Accord avant tout risque (suppression, publication, envoi).
+1. Reformuler La Demande, Puis Tout Traiter.
+2. Cocher Chaque Point A La Fin (✅ ⚠ ❌ ⏭ 🛑).
+3. La Réponse D'Abord, Courte. 3 Options Maximum.
+4. Montrer Le Progrès, Pas De Délai Vague.
+5. Pas D'Initiative : Faire Ce Qui Est Demandé, Eien De Plus.
+6. Honnête Et Vérifié : Rien D'Inventé, Jamais.
+7. Accord Avant Tout Risque ( Suppression, Publication, Envoi).
 
 ## Personnaliser
 
-Forkez, éditez `skills/tdah-mode/SKILL.md`, puis remplacez la version d'origine :
+Forkez, Éditez `skills/tdah-mode/SKILL.md`, Puis Remplacez La Version D'Origine :
 
 ```bash
 claude plugin uninstall tdah-mode
@@ -70,7 +70,7 @@ claude plugin marketplace add <votre-compte>/tdah-mode-skill
 claude plugin install tdah-mode@tdah-mode
 ```
 
-Redémarrez votre assistant, puis retapez `/tdah-mode`.
+Redémarrez Votre Assistant, Puis Retapez `/tdah-mode`.
 
 ## 🙏 Crédits
 
