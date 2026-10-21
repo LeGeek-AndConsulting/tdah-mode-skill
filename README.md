@@ -15,7 +15,7 @@
 
 ## Installation
 
-Guide Détaillé, 4 Méthodes ( Claude Code, Claude.ai, ChatGPT/Gemini/Mistral) : 🔗 [ INSTALL.MD ](INSTALL.md).
+Guide Détaillé, 4 Méthodes ( Claude Code, Claude.ai, ChatGPT - Gemini - Mistral) : 🔗 [ INSTALL.MD ](INSTALL.md).
 
 Activation : Tapez `/tdah-mode`. Arrêt : Écrivez « Mode Normal ».
 
