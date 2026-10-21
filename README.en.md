@@ -53,3 +53,5 @@ A SessionStart Hook Then Loads The Rules In Every Session. It Needs Node.js, Mak
 ## ⚖️ License
 
 MIT. See [LICENSE](LICENSE).
+
+"✌️🤓✌️"
