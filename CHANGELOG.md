@@ -9,8 +9,7 @@
 🚀 1.0.0 — 21/10/2026
 🎉 Première Version Publique.
 
-🧠 Skill Tdah-Mode 🧠 : Fusion Du Style Tdah-Mode De LeGeek AndConsulting Et Des Règles De Forme De Tdah-Adhd 
-( LeGeekAndConsulting )
+🧠 Skill Tdah-Mode 🧠 : Fusion Du Style Tdah-Mode De LeGeek AndConsulting Et Des Règles De Forme De Tdah-Adhd
 
 Licence ( MIT ) Traduites En Français.
 
