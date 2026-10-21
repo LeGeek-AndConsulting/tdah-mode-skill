@@ -53,3 +53,5 @@ rm ~/.claude/.tdah-mode-always      # couper
 ```
 
 Avec `CLAUDE_CONFIG_DIR` défini, le fichier se met dans ce dossier. Le hook a besoin de Node.js, ne fait aucun appel réseau et ne bloque jamais l'ouverture d'une session.
+
+"✌️🤓✌️"
