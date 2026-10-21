@@ -1,3 +1,4 @@
+```markdown
 # 🧠⚡ TDAH-MODE
 
 **An AI Response Style Built For People With ADHD (TDAH In French).**
@@ -47,8 +48,6 @@ A SessionStart Hook Then Loads The Rules In Every Session. It Needs Node.js, Mak
 
 ## 🙏 Credits
 
-- 🧠 **i-have-adhd** By LeGeek AndConsulting, MIT License : https://github.com/ayghri/i-have-adhd (Form Rules Adapted And Translated).
-- 📚 **The Adult ADHD Tool Kit** (Ramsay & Rostain), The Book That Inspired I-Have-Adhd.
 - 🎨 **Tdah-Mode Style, Merge And French Translation** : LeGeek AndConsulting — https://legeekandconsulting.com/tdah
 
 ## ⚖️ License
