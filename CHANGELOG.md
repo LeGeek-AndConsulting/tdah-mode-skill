@@ -4,7 +4,7 @@
 
 📄 Prompt Universel : Ligne De Crédit MODE TDAH 🧠 ( MIT ) Ajoutée, Toujours Sous 1 500 Caractères.
 
-📘 README : Méthode Plugin Et Mode Toujours Actif Marqués « Bientôt Disponible » (Dépôt GitHub Pas Encore Publié), Liens Du .Zip Rendus Absolus, README.En.Md Ajouté Au .Zip.
+📘 README : Méthode Plugin Et Mode Toujours Actif Marqués « Bientôt Disponible » ( Dépôt GitHub Pas Encore Publié ), Liens Du .Zip Rendus Absolus, README.En.Md Ajouté Au .Zip.
 
 🚀 1.0.0 — 21/10/2026
 🎉 Première Version Publique.
