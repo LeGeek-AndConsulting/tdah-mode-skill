@@ -2,7 +2,7 @@
   <strong>🧠⚡ tdah-mode</strong>
 </p>
 <p align="center">
-  <strong>Des réponses d'IA pensées pour un cerveau TDAH. Aucun diagnostic requis.</strong>
+  <strong>Des Réponses D'IA Pensées Pour Un Cerveau TDAH. Aucun Diagnostic Requis.</strong>
 </p>
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/github/license/LeGeek-AndConsulting/tdah-mode-skill?style=flat" alt="Licence"></a>
@@ -21,7 +21,7 @@ Activation : tapez `/tdah-mode`. Arrêt : écrivez « mode normal ».
 
 ## Ce Qu'il Fait
 
-Un skill pour votre assistant IA qui l'empêche de noyer la réponse. L'action d'abord. Les étapes numérotées. Jamais de « J'espère que ça aide ! ».
+Un Skill Pour Votre Assistant IA Qui L'Empêche De Noyer La Réponse. L'Action D'Abord. Les Étapes Numérotées. Jamais De « J'Espère Que Ça Aide ! ».
 
 ## Ce Que Ça Change
 
