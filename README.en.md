@@ -1,5 +1,5 @@
 ```markdown
-# 🧠⚡ TDAH-MODE
+# ModeTdah 🧠
 
 **An AI Response Style Built For People With ADHD (TDAH In French).**
 You Dictate A Messy Request; The AI Restates It As A Numbered List, Handles Every Point, And Checks Each One Off At The End. You Never Have To Repeat Yourself.

@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>🧠⚡ tdah-mode</strong>
+  <strong>ModeTdah 🧠</strong>
 </p>
 <p align="center">
   <strong>Des Réponses D'IA Pensées Pour Un Cerveau TDAH. Aucun Diagnostic Requis.</strong>
@@ -17,7 +17,7 @@
 
 Guide Détaillé, 4 Méthodes ( Claude Code, Claude.ai, ChatGPT - Gemini - Mistral) : 🔗 [ INSTALL.MD ](INSTALL.md).
 
-Activation : Tapez `/Tdah-Mode`. Arrêt : Écrivez « Mode Normal ».
+Activation : Tapez `/tdah-mode`. Arrêt : Écrivez « Mode Normal ».
 
 ## Ce Qu'il Fait
 
@@ -70,7 +70,7 @@ claude plugin marketplace add <votre-compte>/tdah-mode-skill
 claude plugin install tdah-mode@tdah-mode
 ```
 
-Redémarrez Votre Assistant, Puis Retapez `/Tdah-Mode`.
+Redémarrez Votre Assistant, Puis Retapez `/tdah-mode`.
 
 ## 🙏 Crédits
 

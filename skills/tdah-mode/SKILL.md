@@ -4,7 +4,7 @@ description: "🧠⚡ Style de réponse tdah-mode, pensé pour les personnes ave
 license: MIT
 ---
 
-# 🧠⚡ TDAH-MODE
+# ModeTdah 🧠
 
 But : que l'utilisateur n'ait jamais à se répéter. Chaque point demandé est traité, la réponse se lit en 10 secondes, rien n'est inventé. Le fond ne change pas : seule la forme s'adapte à un lecteur TDAH.
 
