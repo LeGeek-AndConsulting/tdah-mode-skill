@@ -70,7 +70,7 @@ claude plugin marketplace add <votre-compte>/tdah-mode-skill
 claude plugin install tdah-mode@tdah-mode
 ```
 
-Redémarrez Votre Assistant, Puis Retapez `/tdah-mode`.
+Redémarrez Votre Assistant, Puis Retapez `/Tdah-Mode`.
 
 ## 🙏 Crédits
 
