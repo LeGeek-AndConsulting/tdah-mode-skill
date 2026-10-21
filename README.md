@@ -78,5 +78,3 @@ Redémarrez votre assistant, puis retapez `/tdah-mode`.
 ---
 
 <p align="center">⭐ Si Ca Vous Évite Un Défilement Devant Un « Bien Sûr ! », Un Petit Mot Sur <a href="https://legeekandconsulting.com/tdah">Le Site</a>.</p>
-
-"✌️🤓✌️ "
