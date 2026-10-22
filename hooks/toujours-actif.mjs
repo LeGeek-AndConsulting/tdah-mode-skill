@@ -70,7 +70,7 @@ try {
       let corps = sansEnTete(readFileSync(skill, "utf8"));
       corps = ["Pourquoi Ces Règles", "Exemple", "Crédits"].reduce(sansSection, corps);
       const tete = `TDAH-MODE ACTIF (toujours actif) — supprimez ${drapeau} pour couper`;
-      const credit = "Règles adaptées de i-have-adhd (Ayoub Ghriss, licence MIT). Notice complète : LICENSE du plugin.";
+      const credit = "Style ModeTdah 🧠, LeGeek AndConsulting. Notice complète : LICENSE du plugin.";
       let sortie = corps ? `${tete}\n\n${corps}\n\n${credit}\n` : "";
       if (sortie.length > LIMITE) {
         sortie = `${tete}\n\nChargez le skill tdah-mode (outil Skill) dès la première réponse et appliquez-le pendant toute la session, jusqu'à « mode normal » ou « stop tdah-mode ».\n`;
