@@ -24,7 +24,7 @@ Ouvrez Une Nouvelle Session. Cette Méthode Permet Aussi Le **Mode Toujours Acti
 
 1. Téléchargez `tdah-mode.zip` ( Ne Le Décompressez Pas !).
 2. Ouvrez **Réglages › Skills** ( Nom Exact Du Menu Selon La Version De Claude.ai) Et Importez le `.zip`.
-3. Activez Le Skill **tdah-mode**.
+3. Activez Le Skill **Tdah-Mode**.
 
 ## 4️⃣ ChatGPT, Gemini, Mistral Et Les Autres
 
