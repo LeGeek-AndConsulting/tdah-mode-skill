@@ -18,7 +18,7 @@ claude plugin marketplace add LeGeek-AndConsulting/tdah-mode-skill
 claude plugin install tdah-mode@tdah-mode
 ```
 
-Ouvrez Une Nouvelle Session. Cette Méthode Permet Aussi Le **Mode Toujours Actif** (§4).
+Ouvrez Une Nouvelle Session. Cette Méthode Permet Aussi Le **Mode Toujours Actif**.
 
 ## 3️⃣ Claude.ai — Import Du .zip
 
