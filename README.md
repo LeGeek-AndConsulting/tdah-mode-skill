@@ -74,6 +74,6 @@ Redémarrez Votre Assistant, Puis Retapez `/tdah-mode`.
 
 ## 🙏 Crédits
 
-📋 Règles De Forme Adaptées Et Traduites (Persistance, Action D'Abord, Exceptions, Contrôle Avant Envoi). 🔏 Copyright (C) 2026 LeGeek. 📄 Licence MIT : 🔗 Github.com. 📜 Notice Complète Dans Le Fichier LICENSE. 🎨 Style Tdah-Mode Créé Par LeGeek AndConsulting. ✌️🤓✌️ https://legeekandconsulting.com/tdah
+📋 Règles De Forme Adaptées Et Traduites ( Persistance, Action D'Abord, Exceptions, Contrôle Avant Envoi ). 🔏 Copyright (C) 2026 LeGeek. 📄 Licence MIT : 🔗 Github.com. 📜 Notice Complète Dans Le Fichier LICENSE. 🎨 Style Tdah-Mode Créé Par LeGeek AndConsulting. ✌️🤓✌️ https://legeekandconsulting.com/tdah
 
 <p align="center">⭐ Si Ca Vous Évite Un Défilement Devant Un « Bien Sûr ! », Un Petit Mot Sur <a href="https://legeekandconsulting.com/tdah">Le Site</a>.</p>
