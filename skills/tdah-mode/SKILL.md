@@ -1,6 +1,6 @@
 ---
 name: tdah-mode
-description: "🧠⚡ Style de réponse tdah-mode, pensé pour les personnes avec un TDAH (fusion du style tdah-mode de LeGeek AndConsulting et de i-have-adhd) : la demande reformulée en liste numérotée puis cochée ✅/⚠/❌/⏭/🛑, la réponse d'abord, phrases courtes, Title Case + emojis, 3 options maximum, une seule prochaine action, rien d'inventé. Reste actif toute la session ; « mode normal » ou « stop tdah-mode » pour couper. À charger seulement quand l'utilisateur écrit lui-même le nom exact « tdah-mode » (avec ou sans /, même au milieu d'un message dicté) ou quand un autre skill y renvoie pour le style. Jamais de sa propre initiative."
+description: "🧠⚡ Style de réponse tdah-mode, pensé pour les personnes avec un TDAH (fusion du style tdah-mode de LeGeek AndConsulting  : la demande reformulée en liste numérotée puis cochée ✅/⚠/❌/⏭/🛑, la réponse d'abord, phrases courtes, Title Case + emojis, 3 options maximum, une seule prochaine action, rien d'inventé. Reste actif toute la session ; « mode normal » ou « stop tdah-mode » pour couper. À charger seulement quand l'utilisateur écrit lui-même le nom exact « tdah-mode » (avec ou sans /, même au milieu d'un message dicté) ou quand un autre skill y renvoie pour le style. Jamais de sa propre initiative."
 license: MIT
 ---
 
