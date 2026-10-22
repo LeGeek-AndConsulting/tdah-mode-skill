@@ -143,5 +143,4 @@ Message final :
 À éviter : « Bien Sûr ! J'Ai Regardé Votre Code… », un pavé, puis « N'Hésitez Pas ! ».
 
 ## 🙏 Crédits
-
-Règles de forme (persistance, action d'abord, exceptions, contrôle avant envoi) adaptées et traduites de i-have-adhd, Copyright (c) 2026 Ayoub Ghriss, licence MIT : https://github.com/ayghri/i-have-adhd. Ce projet s'inspire lui-même de « The Adult ADHD Tool Kit » (Ramsay & Rostain). Notice complète dans LICENSE, à côté de ce fichier. Style ModeTdah 🧠, fusion et traduction : LeGeek AndConsulting — https://legeekandconsulting.com/tdah
+https://legeekandconsulting.com/tdah
