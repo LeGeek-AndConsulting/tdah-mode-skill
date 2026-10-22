@@ -1,6 +1,6 @@
 # 📥 Installation
 
-Choisissez **une seule** méthode selon votre outil.
+Choisissez **Une Seule** Méthode Selon Votre Outil.
 
 ## 1️⃣ Claude Code — Copie Du Dossier
 
@@ -9,7 +9,7 @@ mkdir -p ~/.claude/skills
 unzip tdah-mode.zip -d ~/.claude/skills/
 ```
 
-Ou copiez directement le dossier `skills/tdah-mode` de ce dépôt dans `~/.claude/skills/`. Ouvrez une nouvelle session.
+Ou Copiez Directement Le Dossier `skills/tdah-mode` De Ce Dépôt Dans `~/.claude/skills/`. Ouvrez Une Nouvelle Session.
 
 ## 2️⃣ Claude Code — Plugin Via La Marketplace
 
@@ -18,40 +18,40 @@ claude plugin marketplace add LeGeek-AndConsulting/tdah-mode-skill
 claude plugin install tdah-mode@tdah-mode
 ```
 
-Ouvrez une nouvelle session. Cette méthode permet aussi le **mode toujours actif** (§4).
+Ouvrez Une Nouvelle Session. Cette Méthode Permet Aussi Le **Mode Toujours Actif** (§4).
 
-## 3️⃣ claude.ai — Import Du .zip
+## 3️⃣ Claude.ai — Import Du .zip
 
-1. Téléchargez `tdah-mode.zip` (ne le décompressez pas).
-2. Ouvrez **Réglages › Skills** (nom exact du menu selon la version de claude.ai) et importez le `.zip`.
-3. Activez le skill **tdah-mode**.
+1. Téléchargez `tdah-mode.zip` ( Ne Le Décompressez Pas !).
+2. Ouvrez **Réglages › Skills** ( Nom Exact Du Menu Selon La Version De Claude.ai) Et Importez le `.zip`.
+3. Activez Le Skill **tdah-mode**.
 
 ## 4️⃣ ChatGPT, Gemini, Mistral Et Les Autres
 
-Ces outils n'ont pas de format de skill : utilisez le prompt universel.
+Ces Outils N'ont Pas De Format De Skill : Utilisez Le Prompt Universel.
 
-1. Ouvrez [PROMPT-UNIVERSEL.md](PROMPT-UNIVERSEL.md).
-2. Copiez tout le texte.
-3. Collez-le dans les **instructions personnalisées** de votre outil.
+1. Ouvrez [ PROMPT-UNIVERSEL.md ](PROMPT-UNIVERSEL.md).
+2. Copiez Tout Le Texte.
+3. Collez-Le Dans Les **Instructions Personnalisées** De Votre Outil.
 
-Le style est actif dès que les instructions sont enregistrées, sans rien taper.
+Le Style Est Actif Dès Que Les Instructions Sont Enregistrées, Sans Rien Taper.
 
 ---
 
 ## ▶️ Activer Et ⏹️ Arrêter
 
-- Activer : tapez `/tdah-mode`, ou écrivez simplement « tdah-mode » dans votre message, même dicté.
-- Arrêter : écrivez « mode normal » ou « stop tdah-mode ». Une ligne de confirmation s'affiche, puis le style habituel reprend.
+- Activer : Tapez `/tdah-mode`, Ou Écrivez Simplement « Tdah-Mode » Dans Votre Message, Même Dicté.
+- Arrêter : Écrivez « Mode Nrmal » Ou « Stop Tdah-Mode ». Une Ligne De Confirmation S'Affiche, Puis Le Style Habituel Reprend.
 
-## ♾️ Mode Toujours Actif (Optionnel)
+## ♾️ Mode Toujours Actif ( Optionnel )
 
-Pour Claude Code installé en plugin (méthode 2️⃣). Le style se charge tout seul à chaque session, sans taper `/tdah-mode`.
+Pour Claude Code Installé En Plugin ( Méthode 2️⃣ ). Le Style Se Charge Tout Seul à Chaque Session, Sans Taper `/tdah-mode`.
 
 ```bash
 touch ~/.claude/.tdah-mode-always   # activer
 rm ~/.claude/.tdah-mode-always      # couper
 ```
 
-Avec `CLAUDE_CONFIG_DIR` défini, le fichier se met dans ce dossier. Le hook a besoin de Node.js, ne fait aucun appel réseau et ne bloque jamais l'ouverture d'une session.
+Avec `CLAUDE_CONFIG_DIR` Défini, Le Fichier Se Met Dans Ce Dossier. Le Hook a Besoin De Node.js, Ne Fait Aucun Appel Réseau Et Ne Bloque Jamais L'ouverture D'Une Session.
 
 "✌️🤓✌️"
